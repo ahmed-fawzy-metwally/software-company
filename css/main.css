@@ -283,7 +283,8 @@ header {
 
 .service-packages__card .row{
     border: 2px solid rgb(231, 237, 242);
-    margin: 10px;
+    margin: 5px;
+    padding-bottom: 15px;
 }
 
 .service-packages .service-packages__price p {
@@ -316,8 +317,42 @@ header {
     font-weight: 400;
 }
 
+/* Digital downloads */
+.digital-downloads__card{
+    border: 2px solid rgb(231, 237, 242);
+}
 
+.digital-downloads__card__content {
+    padding: 12px;
+}
 
+.digital-downloads__card h3{
+    color: #494d57;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.digital-downloads__card p{
+    color: #9aabbd;
+    font-size: 0.8em;
+}
+
+.digital-downloads__card__image-container{
+    position: relative;
+}
+.digital-downloads__card__image-container:hover .digital-downloads__card__image-container__overlay {
+    background-color: rgba(52, 200, 253,0.5);
+}
+
+.digital-downloads__card__image-container__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
 
 
 
