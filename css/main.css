@@ -270,6 +270,65 @@ header {
     border-radius: 5px;
 }
 
+/* Service packages */
+.service-packages h5{
+    color: #494b57;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid rgb(231, 237, 242);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.service-packages__card .row{
+    border: 2px solid rgb(231, 237, 242);
+    margin: 10px;
+}
+
+.service-packages .service-packages__price p {
+    margin: 0;
+}
+
+.service-packages .service-packages__price p:nth-child(1){
+    color: var(--primary-btn-color);
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.service-packages .service-packages__price p:nth-child(2){
+    color: var(--primary-btn-color);
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-packages .service-packages__content p::first-letter{
+    text-transform: capitalize;
+}
+
+.service-packages .service-packages__content p{
+    font-weight: 600;
+}
+
+.service-packages .service-packages__content p span{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
 /* Small devices (less than, 576px and down) */
 
 @media (max-width: 576px) {
@@ -320,6 +379,7 @@ header {
     .icon-content-container {
         margin-bottom: 0;
     }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -328,6 +388,40 @@ header {
     .advantages .advantages-block {
         text-align: center;
     }
+
+    .service-packages__card {
+        margin: 10px 15px 35px;
+        padding-top: 0 !important;
+    }
+
+    .service-packages .service-packages__price{
+        background-color: rgb(231, 237, 242);
+        padding: 10px 0 !important;
+        font-size: 1.9em;
+    }
+
+    .service-packages .service-packages__content {
+        text-align: center;
+    }
+    .service-packages .service-packages__content p{
+        text-align: center;
+        padding: 15px 0;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service-packages .service-packages__content p:not(:last-of-type) {
+        border-bottom: 1px solid rgb(231, 237, 242);
+    }
+
+    .service-packages h5{
+        border-bottom: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
