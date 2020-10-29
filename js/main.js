@@ -19,7 +19,6 @@ $(document).ready(function () {
     })
 
     /* App compatibility */
-
     const appCompatibilityCardBlock = $('.app-compatibility .card-block'),
         appCompatibilityCardBlockContent = $('.app-compatibility .card-block-content')
     console.log(appCompatibilityCardBlock);
@@ -39,5 +38,7 @@ $(document).ready(function () {
             console.log(appCompatibilityCardBlockContent.eq($(this).data('index') - 1));
 
         }
-    })
+    });
+
+    /*  */
 });
