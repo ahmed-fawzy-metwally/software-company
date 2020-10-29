@@ -203,9 +203,11 @@ header {
 }
 
 /* Advantages */
+
 .advantages {
     padding: 40px 0 40px 0;
 }
+
 .advantages h4 {
     font-weight: 500;
     color: var(--forth-color);
@@ -218,12 +220,56 @@ header {
     padding: 0 1%;
 }
 
-.advantages .advantages-block{
+.advantages .advantages-block {
     padding: 15px 20px;
 }
-.advantages .advantages-block p{
+
+.advantages .advantages-block p {
     margin: 0;
 }
+
+/* Get live update */
+
+.get-live-update {
+    background-image: url(../images/startuply_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.get-live-update h3 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.get-live-update h3 span {
+    color: var(--primary-btn-color)
+}
+
+.get-live-update p{
+    color: var(--third-color);
+}
+
+.get-live-update i {
+    color: var(--primary-btn-color);
+    font-size: 2.5em;
+}
+
+.get-live-update input {
+    background-color: transparent;
+    color: var(--third-color);
+}
+
+.get-live-update input, .get-live-update button {
+    outline: none;
+    padding: 10px;
+}
+
+.get-live-update button {
+    border: none;
+    border-radius: 5px;
+}
+
 /* Small devices (less than, 576px and down) */
 
 @media (max-width: 576px) {
