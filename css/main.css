@@ -354,9 +354,41 @@ header {
     transition: background-color 0.5s;
 }
 
+/* Footer */
+footer {
+    background-color: rgb(40, 42, 49);
+}
 
+footer h2 {
+    color: #fff;
+}
 
+footer a{
+    color: var(--secondary-color);
+}
 
+footer .fab {
+    font-size: 3em;
+    /* display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; */
+    margin: 2px;
+    line-height: 98px;
+    transition: color 0.5s;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    color: #F77737;
+}
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+.fa-twitter:hover{
+    color: #00acee;
+}
 
 
 
